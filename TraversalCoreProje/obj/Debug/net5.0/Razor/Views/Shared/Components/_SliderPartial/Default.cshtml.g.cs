@@ -26,8 +26,15 @@ using TraversalCoreProje.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje\Views\_ViewImports.cshtml"
+using EntityLayer.Concrete;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"aff31a6a4149b4520c430d7af6215d6749046df2", @"/Views/Shared/Components/_SliderPartial/Default.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6150063022276d5631f48840275e961238c7ed5d", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a51958c9bf37a05153a1f850f6d853d08112d134", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Shared_Components__SliderPartial_Default : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable
@@ -80,14 +87,14 @@ using TraversalCoreProje.Models;
                         <h6 class=""mb-3"">Bir sonraki mecaranı hemen planla</h6>
                         <div class=""flex-wrap search-wthree-field mt-md-5 mt-4"">
                             ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "aff31a6a4149b4520c430d7af6215d6749046df27474", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "aff31a6a4149b4520c430d7af6215d6749046df27683", async() => {
                 WriteLiteral(@"
                                 <div class=""row book-form"">
                                     <div class=""form-input col-md-4 mt-md-0 mt-3"">
 
                                         <select name=""selectpicker"" class=""selectpicker"">
                                             ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "aff31a6a4149b4520c430d7af6215d6749046df28021", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "aff31a6a4149b4520c430d7af6215d6749046df28230", async() => {
                     WriteLiteral("Rotalar");
                 }
                 );
@@ -103,7 +110,7 @@ using TraversalCoreProje.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "aff31a6a4149b4520c430d7af6215d6749046df29289", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "aff31a6a4149b4520c430d7af6215d6749046df29498", async() => {
                     WriteLiteral("Almanya");
                 }
                 );
@@ -119,7 +126,7 @@ using TraversalCoreProje.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "aff31a6a4149b4520c430d7af6215d6749046df210557", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "aff31a6a4149b4520c430d7af6215d6749046df210766", async() => {
                     WriteLiteral("Hollanda");
                 }
                 );
@@ -135,7 +142,7 @@ using TraversalCoreProje.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "aff31a6a4149b4520c430d7af6215d6749046df211827", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "aff31a6a4149b4520c430d7af6215d6749046df212036", async() => {
                     WriteLiteral("Asya");
                 }
                 );
@@ -151,7 +158,7 @@ using TraversalCoreProje.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "aff31a6a4149b4520c430d7af6215d6749046df213093", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "aff31a6a4149b4520c430d7af6215d6749046df213302", async() => {
                     WriteLiteral("Balkan Turu");
                 }
                 );
@@ -167,7 +174,7 @@ using TraversalCoreProje.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "aff31a6a4149b4520c430d7af6215d6749046df214366", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "aff31a6a4149b4520c430d7af6215d6749046df214575", async() => {
                     WriteLiteral("Kuzey Kutubu");
                 }
                 );
@@ -183,7 +190,7 @@ using TraversalCoreProje.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "aff31a6a4149b4520c430d7af6215d6749046df215640", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "aff31a6a4149b4520c430d7af6215d6749046df215849", async() => {
                     WriteLiteral("İspanya");
                 }
                 );
