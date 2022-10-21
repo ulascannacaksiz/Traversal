@@ -1,0 +1,52 @@
+﻿@{
+    ViewData["Title"] = "SignIn";
+    Layout = "~/Views/Shared/_UILayout.cshtml";
+}
+
+<style>
+    .signinbox {
+        height: 500px;
+    }
+
+    .deneme {
+        margin-top: 10%;
+    }
+</style>
+<body>
+
+    <section class="signinbox">
+        <div class="contact-infubd py-5 mt-5">
+            <div class="container py-lg-3">
+                <div class="row d-flex justify-content-center deneme">
+                    <div class="col-lg-6 mt-lg-0 mt-5">
+                        <div>
+                            <h4 class="text-center mb-3">Giriş Yap !</h4>
+                        </div>
+                        <form action="" method="post" class="signin-form">
+                            
+                            <div class="input-grids">
+                                <div class="form-group">
+                                    <input type="email" name="w3lSender" placeholder="Email*" class="form-control" required="" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" name="w3lName" placeholder="Şifreniz*" class="form-control" />
+                                </div>
+
+                            </div>
+
+                            <div class="text-right">
+                                <button class="btn btn-style btn-success">Giriş Yap</button>
+                            </div>
+                        </form>
+
+                        <span><a href="">Şifremi Unuttum</a></span>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+</body>

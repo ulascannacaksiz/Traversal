@@ -1,0 +1,64 @@
+﻿
+@{
+    ViewData["Title"] = "SignUp";
+    Layout = "~/Views/Shared/_UILayout.cshtml";
+}
+
+<style>
+    .signupbox {
+        height: 800px;
+    }
+
+    .deneme {
+        margin-top: 10%;
+    }
+</style>
+
+<body>
+
+    <section class="signupbox">
+        <div class="contact-infubd py-5">
+            <div class="container py-lg-3">
+                <div class="row d-flex justify-content-center  deneme">
+
+                    <div class="col-lg-6 mt-lg-0 mt-5 ">
+                        <div>
+                            <h4 class="text-center mb-3">Yeni Hesap Oluştur !</h4>
+                        </div>
+                        <form action="" method="post" class="">
+                            <div class="input-grids">
+                                <div class="form-group">
+                                    <input type="text" name="w3lName"  placeholder="Adınız*" class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="w3lName" placeholder="Soyadınız*" class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" name="w3lSender"  placeholder="Email*" class="form-control" required="" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="w3lName" placeholder="Telefon Numaranız*" class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" name="w3lName" placeholder="Şifreniz*" class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" name="w3lName" placeholder="Şifre Tekrar*" class="form-control" />
+                                </div>
+                            </div>
+
+                            <div class="text-right">
+                                <button class="btn btn-style btn-success">Kayıt Ol</button>
+                            </div>
+                        </form>
+                        <span><a href="/Login/SignIn/"> Bunun Yerine Oturum Aç</a></span>
+                    </div>
+
+                </div>
+                </div>
+
+            </div>
+    </section>
+
+
+</body>
