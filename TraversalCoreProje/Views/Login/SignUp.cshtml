@@ -1,4 +1,4 @@
-﻿
+﻿@model TraversalCoreProje.Models.UserRegisterViewModel
 @{
     ViewData["Title"] = "SignUp";
     Layout = "~/Views/Shared/_UILayout.cshtml";
@@ -6,7 +6,7 @@
 
 <style>
     .signupbox {
-        height: 800px;
+        height: 1200px;
     }
 
     .deneme {
@@ -25,25 +25,32 @@
                         <div>
                             <h4 class="text-center mb-3">Yeni Hesap Oluştur !</h4>
                         </div>
-                        <form action="" method="post" class="">
+                        <form method="post">
                             <div class="input-grids">
                                 <div class="form-group">
-                                    <input type="text" name="w3lName"  placeholder="Adınız*" class="form-control" />
+                                    <input type="text" asp-for="Name"  placeholder="Adınız*" class="form-control" />
+                                    <span class="text text-danger" asp-validation-for="Name"></span>
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" name="w3lName" placeholder="Soyadınız*" class="form-control" />
+                                    <input type="text" asp-for="Surname" placeholder="Soyadınız*" class="form-control" />
+                                    <span class="text text-danger" asp-validation-for="Surname"></span>
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" name="w3lSender"  placeholder="Email*" class="form-control" required="" />
+                                    <input type="email" asp-for="Mail" placeholder="Email*" class="form-control" />
+                                    <span class="text text-danger" asp-validation-for="Mail"></span>
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" name="w3lName" placeholder="Telefon Numaranız*" class="form-control" />
+                                    <input type="text" asp-for="Username" placeholder="Kullanıcı adı*" class="form-control" />
+                                    <span class="text text-danger" asp-validation-for="Username"></span>
                                 </div>
                                 <div class="form-group">
-                                    <input type="password" name="w3lName" placeholder="Şifreniz*" class="form-control" />
+                                    <input type="password" asp-for="Password" placeholder="Şifreniz*" class="form-control" />
+                                    <span class="text text-danger" asp-validation-for="Password"></span>
                                 </div>
                                 <div class="form-group">
-                                    <input type="password" name="w3lName" placeholder="Şifre Tekrar*" class="form-control" />
+                                    <input type="password" asp-for="ConfrimPassword" placeholder="Şifre Tekrar*" class="form-control" />
+                                    <span class="text text-danger" asp-validation-for="ConfrimPassword"></span>
+                                    <div class="text text-danger" asp-validation-summary="ModelOnly"></div>
                                 </div>
                             </div>
 
