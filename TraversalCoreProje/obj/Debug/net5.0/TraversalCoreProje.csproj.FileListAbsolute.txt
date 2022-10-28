@@ -191,3 +191,4 @@ C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje\obj\De
 C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Member\Views\Reservation\MyCurrentReservation.cshtml.g.cs
 C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Member\Views\Reservation\MyOldReservation.cshtml.g.cs
 C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Member\Views\Reservation\MyApprovalReservation.cshtml.g.cs
+C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Member\Views\Dashboard\Index.cshtml.g.cs
