@@ -1,0 +1,32 @@
+﻿@model List<Guide>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    int c = 0;
+}
+
+<h1>Rehber Listesi</h1>
+
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Resim</th>
+        <th>Ad soyad</th>
+        <th>Açıklama</th>
+        <th>Durum</th>
+        <th>Düzenle</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        c++;
+        <tr>
+            <td>@c</td>
+            <td><img src="@item.Image" class="rounded" width="50" height="50" /></td>
+            <td>@item.Name</td>
+            <td>@item.Description</td>
+            <td><a href="" class='badge bg-label-@(item.Status == true ? "danger" : "info") rounded-pill'>@(item.Status == true ? "pasif yap" : "aktif yap")</a></td>
+            <td><a href="/Admin/Destination/DeleteDestination/@item.GuideId" class="btn btn-warning">Düzenle</a></td>
+        </tr>
+    }
+</table>
+<a href="/Admin/Guide/AddGuide" class="btn btn-primary">Yeni Rehber Oluştur</a>
