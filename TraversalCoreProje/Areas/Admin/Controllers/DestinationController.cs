@@ -8,7 +8,7 @@ using System.Linq.Expressions;
 namespace TraversalCoreProje.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    
+    [Route("Admin/Destination/[action]/{id?}")]
     public class DestinationController : Controller
     {
         //DestinationManager destinationManager = new DestinationManager(new EfDestinationDal());

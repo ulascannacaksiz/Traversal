@@ -12,7 +12,9 @@
 @await Html.PartialAsync("~/Views/Admin/PartialHeader.cshtml")
 
 <body>
-
+    <script>
+        toastr["@TempData["Type"]"]("@TempData["Description"]", "@TempData["Subject"]")
+    </script>
     <div class="layout-wrapper layout-content-navbar">
         <div class="layout-container">
             <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">

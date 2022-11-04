@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace TraversalCoreProje.Areas.Admin.Controllers
 {
     [Area("Admin")]
-  
+    [Route("Admin/Comment/[action]/{id?}")]
     public class CommentController : Controller
     {
         //CommentManager commentManager = new CommentManager(new EfCommentDal());

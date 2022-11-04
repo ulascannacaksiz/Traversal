@@ -11,6 +11,12 @@ namespace TraversalCoreProje.Areas.Admin.Controllers
     [Route("Admin/Guide/[action]/{id?}")]
     public class GuideController : Controller
     {
+        public void AlertShow(string type, string subject, string message)
+        {
+            TempData["Type"] = type;
+            TempData["Subject"] = subject;
+            TempData["Description"] = message;
+        }
         private readonly IGuideService _guideService;
 
         public GuideController(IGuideService guideService)
@@ -26,6 +32,7 @@ namespace TraversalCoreProje.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult AddGuide()
         {
+            
             return View();
         }
         [HttpPost]
@@ -36,6 +43,7 @@ namespace TraversalCoreProje.Areas.Admin.Controllers
             if (result.IsValid)
             {
                 _guideService.TAdd(guide);
+                AlertShow("success", "Başarılı", "Yeni Rehber Başarıyla Eklendi!");
                 return RedirectToAction("Index");
             }
             else
@@ -44,6 +52,7 @@ namespace TraversalCoreProje.Areas.Admin.Controllers
                 {
                     ModelState.AddModelError(item.PropertyName,item.ErrorMessage);
                 }
+                AlertShow("error", "Başarısız", "Rehber eklenemedi!");
                 return View();
             }
 
@@ -60,6 +69,7 @@ namespace TraversalCoreProje.Areas.Admin.Controllers
         public IActionResult EditGuide(Guide guide)
         {
             _guideService.TUpdate(guide);
+            AlertShow("success", "Başarılı", "Rehber Bilgisi Başarıyla Güncellendi!");
             return RedirectToAction("Index");
         }
         public IActionResult ChangeStatus(int id)
@@ -67,6 +77,7 @@ namespace TraversalCoreProje.Areas.Admin.Controllers
             var values = _guideService.TGetById(id);
             values.Status = !values.Status;
             _guideService.TUpdate(values);
+            AlertShow("success", "Başarılı", "Rehber durumu güncellendi!");
             return RedirectToAction("Index");
         }
     }
