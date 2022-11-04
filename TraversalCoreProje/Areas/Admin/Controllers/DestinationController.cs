@@ -8,6 +8,7 @@ using System.Linq.Expressions;
 namespace TraversalCoreProje.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    
     public class DestinationController : Controller
     {
         //DestinationManager destinationManager = new DestinationManager(new EfDestinationDal());

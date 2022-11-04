@@ -1,0 +1,596 @@
+2022-11-04T09:23:16.6500845+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T09:23:16.6851872+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T09:23:16.6921540+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T09:23:17.3786963+03:00 80000054-0003-f800-b63f-84710c7967bb [INF] Index sayfası çağrıldı (1598f5de)
+2022-11-04T09:23:17.3886458+03:00 80000054-0003-f800-b63f-84710c7967bb [ERR] Log error Çağrıldı (c87b3377)
+2022-11-04T09:23:21.2771804+03:00 80000095-0000-fb00-b63f-84710c7967bb [INF] Index sayfası çağrıldı (1598f5de)
+2022-11-04T09:23:21.2815462+03:00 80000095-0000-fb00-b63f-84710c7967bb [ERR] Log error Çağrıldı (c87b3377)
+2022-11-04T09:23:25.8342143+03:00 800000a5-0002-fc00-b63f-84710c7967bb [INF] 4.11.2022 09:23:25Privacy sayfası çağrıldı (e9c78935)
+2022-11-04T09:33:14.8901014+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T09:33:14.9065498+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T09:33:14.9067899+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T09:36:34.5430483+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T09:36:34.5691858+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T09:36:34.5694490+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T09:40:49.0300576+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T09:40:49.0615388+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T09:40:49.0617326+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T09:45:11.4498384+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T09:45:11.5055388+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T09:45:11.5058548+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T09:47:40.8953722+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T09:47:40.9144511+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T09:47:40.9148470+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T09:48:54.2134876+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T09:48:54.2876038+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T09:48:54.2932083+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T09:48:55.1234925+03:00 800000fe-0001-f900-b63f-84710c7967bb [INF] Index sayfası çağrıldı (1598f5de)
+2022-11-04T09:48:55.1312992+03:00 800000fe-0001-f900-b63f-84710c7967bb [ERR] Log error Çağrıldı (c87b3377)
+2022-11-04T09:50:28.0782810+03:00 800000f6-0000-fa00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+OfficeOpenXml.LicenseException: Please set the ExcelPackage.LicenseContext property. See https://epplussoftware.com/developers/licenseexception
+   at OfficeOpenXml.ExcelPackage.get_Workbook()
+   at OfficeOpenXml.ExcelPackage.CreateBlankWb()
+   at OfficeOpenXml.ExcelPackage.ConstructNewFile(String password)
+   at OfficeOpenXml.ExcelPackage..ctor()
+   at TraversalCoreProje.Controllers.ExcelController.Index()
+   at lambda_method36(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-11-04T09:50:48.9907287+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T09:50:49.0066859+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T09:50:49.0098874+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T09:50:49.5055992+03:00 800000c3-0002-fc00-b63f-84710c7967bb [INF] Index sayfası çağrıldı (1598f5de)
+2022-11-04T09:50:49.5153780+03:00 800000c3-0002-fc00-b63f-84710c7967bb [ERR] Log error Çağrıldı (c87b3377)
+2022-11-04T10:08:26.4503649+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T10:08:26.5497462+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T10:08:26.5501825+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T10:28:15.3244227+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T10:28:15.3429977+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T10:28:15.3432201+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T10:29:01.4241791+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T10:29:01.4373491+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T10:29:01.4375493+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T10:29:30.3411701+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T10:29:30.3505784+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T10:29:30.3535839+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T10:29:30.6949001+03:00 800000d4-0000-fc00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentNullException: Cannot pass null model to Validate. (Parameter 'instanceToValidate')
+   at FluentValidation.Internal.ExtensionsInternal.Guard(Object obj, String message, String paramName) in /Users/jskinner/code/FluentValidation/src/FluentValidation/Internal/ExtensionsInternal.cs:line 30
+   at FluentValidation.AbstractValidator`1.EnsureInstanceNotNull(Object instanceToValidate) in /Users/jskinner/code/FluentValidation/src/FluentValidation/AbstractValidator.cs:line 491
+   at FluentValidation.AbstractValidator`1.ValidateInternalAsync(ValidationContext`1 context, Boolean useAsync, CancellationToken cancellation) in /Users/jskinner/code/FluentValidation/src/FluentValidation/AbstractValidator.cs:line 235
+   at FluentValidation.AbstractValidator`1.Validate(ValidationContext`1 context) in /Users/jskinner/code/FluentValidation/src/FluentValidation/AbstractValidator.cs:line 202
+   at FluentValidation.AbstractValidator`1.Validate(T instance) in /Users/jskinner/code/FluentValidation/src/FluentValidation/AbstractValidator.cs:line 167
+   at TraversalCoreProje.Areas.Admin.Controllers.GuideController.AddGuide(Guide guide) in C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje\Areas\Admin\Controllers\GuideController.cs:line 33
+   at lambda_method39(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-11-04T10:50:37.5803262+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T10:50:37.5949479+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T10:50:37.5951692+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T10:51:14.4686605+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T10:51:14.4804856+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T10:51:14.4807116+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T10:51:28.6826509+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T10:51:28.6921158+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T10:51:28.6922520+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T10:51:47.6513323+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T10:51:47.6869874+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T10:51:47.6871723+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T10:52:30.2589933+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T10:52:30.2727197+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T10:52:30.2729170+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T11:06:56.9801355+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T11:06:56.9938062+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T11:06:56.9939843+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T11:07:10.0900354+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T11:07:10.1115072+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T11:07:10.1217671+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T11:07:10.6476992+03:00 8000006e-0000-f600-b63f-84710c7967bb [INF] Index sayfası çağrıldı (1598f5de)
+2022-11-04T11:07:10.6587084+03:00 8000006e-0000-f600-b63f-84710c7967bb [ERR] Log error Çağrıldı (c87b3377)
+2022-11-04T11:08:00.7186883+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T11:08:00.7343880+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T11:08:00.7345756+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T11:08:03.6298876+03:00 80000002-0002-f800-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje\wwwroot\Paragraph\Dosya1.pdf'.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at TraversalCoreProje.Areas.Admin.Controllers.PdfReportController.StaticPdfReport() in C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje\Areas\Admin\Controllers\PdfReportController.cs:line 19
+   at lambda_method49(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-11-04T11:09:00.7779481+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T11:09:00.7864576+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T11:09:00.7866316+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T11:13:44.8148451+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T11:13:44.8276477+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T11:13:44.8278021+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T11:14:07.3391131+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T11:14:07.3566385+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T11:14:07.3568441+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T11:14:11.4639747+03:00 80000078-0000-f600-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.IO.IOException: The document has no pages.
+   at iTextSharp.text.pdf.PdfPages.WritePageTree()
+   at iTextSharp.text.pdf.PdfWriter.Close()
+   at iTextSharp.text.pdf.PdfDocument.Close()
+   at iTextSharp.text.Document.Close()
+   at TraversalCoreProje.Areas.Admin.Controllers.PdfReportController.StaticCustomerfReport() in C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje\Areas\Admin\Controllers\PdfReportController.cs:line 53
+   at lambda_method49(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-11-04T11:15:48.8273864+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T11:15:48.8365372+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T11:15:48.8367175+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T11:16:51.2130397+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T11:16:51.2332169+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T11:16:51.2334666+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T11:31:27.7575675+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T11:31:27.7723727+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T11:31:27.7727558+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T11:31:59.7909476+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T11:31:59.8008282+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T11:31:59.8010623+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T11:34:56.5613773+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T11:34:56.5805226+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T11:34:56.5807214+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T11:35:26.4890838+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T11:35:26.4993258+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T11:35:26.4997172+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T11:36:49.8166558+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T11:36:49.8345771+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T11:36:49.8348793+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T11:37:49.8090401+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T11:37:49.8321596+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T11:37:49.8323710+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T11:39:09.0269148+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T11:39:09.0801471+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T11:39:09.0803559+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T11:43:48.3909591+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T11:43:48.4514534+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T11:43:48.4516611+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T11:48:32.5667427+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T11:48:32.5843600+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T11:48:32.5846032+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T11:49:29.9108190+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T11:49:29.9251531+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T11:49:29.9253302+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T11:57:07.4515356+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T11:57:07.4616419+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T11:57:07.4618801+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T11:57:47.7499865+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T11:57:47.7601498+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T11:57:47.7603151+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T11:58:35.2080861+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T11:58:35.2219317+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T11:58:35.2220677+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T11:59:00.6931273+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T11:59:00.7025375+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T11:59:00.7026588+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T11:59:08.0651542+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T11:59:08.0792958+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T11:59:08.0794699+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T11:59:31.2402542+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T11:59:31.2553311+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T11:59:31.2555632+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T11:59:48.1263256+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T11:59:48.1361676+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T11:59:48.1364364+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T12:00:06.3132225+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T12:00:06.3222760+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T12:00:06.3224520+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T12:00:52.9558178+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T12:00:52.9696562+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T12:00:52.9697940+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T12:06:29.3797965+03:00  [FTL] Application startup exception (6c57a5ba)
+System.InvalidOperationException: The following errors occurred with attribute routing information:
+
+Error 1:
+For action: 'TraversalCoreProje.Controllers.ExcelController.Index (TraversalCoreProje)'
+Error: While processing template '[Admin]/[Excel]', a replacement value for the token 'Admin' could not be found. Available tokens: 'action, area, controller'. To use a '[' or ']' as a literal string in a route or within a constraint, use '[[' or ']]' instead.
+
+Error 2:
+For action: 'TraversalCoreProje.Controllers.ExcelController.DestinationList (TraversalCoreProje)'
+Error: While processing template '[Admin]/[Excel]', a replacement value for the token 'Admin' could not be found. Available tokens: 'action, area, controller'. To use a '[' or ']' as a literal string in a route or within a constraint, use '[[' or ']]' instead.
+
+Error 3:
+For action: 'TraversalCoreProje.Controllers.ExcelController.StaticExcelReport (TraversalCoreProje)'
+Error: While processing template '[Admin]/[Excel]', a replacement value for the token 'Admin' could not be found. Available tokens: 'action, area, controller'. To use a '[' or ']' as a literal string in a route or within a constraint, use '[[' or ']]' instead.
+
+Error 4:
+For action: 'TraversalCoreProje.Controllers.ExcelController.GenericDynamicExcelReport (TraversalCoreProje)'
+Error: While processing template '[Admin]/[Excel]', a replacement value for the token 'Admin' could not be found. Available tokens: 'action, area, controller'. To use a '[' or ']' as a literal string in a route or within a constraint, use '[[' or ']]' instead.
+
+Error 5:
+For action: 'TraversalCoreProje.Controllers.ExcelController.DestinationExcelReport (TraversalCoreProje)'
+Error: While processing template '[Admin]/[Excel]', a replacement value for the token 'Admin' could not be found. Available tokens: 'action, area, controller'. To use a '[' or ']' as a literal string in a route or within a constraint, use '[[' or ']]' instead.
+
+Error 6:
+For action: 'TraversalCoreProje.Areas.Admin.Controllers.CommentController.Index (TraversalCoreProje)'
+Error: While processing template '[Admin]/[Comment]', a replacement value for the token 'Admin' could not be found. Available tokens: 'action, area, controller'. To use a '[' or ']' as a literal string in a route or within a constraint, use '[[' or ']]' instead.
+
+Error 7:
+For action: 'TraversalCoreProje.Areas.Admin.Controllers.CommentController.DeleteComment (TraversalCoreProje)'
+Error: While processing template '[Admin]/[Comment]', a replacement value for the token 'Admin' could not be found. Available tokens: 'action, area, controller'. To use a '[' or ']' as a literal string in a route or within a constraint, use '[[' or ']]' instead.
+
+Error 8:
+For action: 'TraversalCoreProje.Areas.Admin.Controllers.DestinationController.Index (TraversalCoreProje)'
+Error: While processing template '[Admin]/[Destination]', a replacement value for the token 'Admin' could not be found. Available tokens: 'action, area, controller'. To use a '[' or ']' as a literal string in a route or within a constraint, use '[[' or ']]' instead.
+
+Error 9:
+For action: 'TraversalCoreProje.Areas.Admin.Controllers.DestinationController.AddDestination (TraversalCoreProje)'
+Error: While processing template '[Admin]/[Destination]', a replacement value for the token 'Admin' could not be found. Available tokens: 'action, area, controller'. To use a '[' or ']' as a literal string in a route or within a constraint, use '[[' or ']]' instead.
+
+Error 10:
+For action: 'TraversalCoreProje.Areas.Admin.Controllers.DestinationController.AddDestination (TraversalCoreProje)'
+Error: While processing template '[Admin]/[Destination]', a replacement value for the token 'Admin' could not be found. Available tokens: 'action, area, controller'. To use a '[' or ']' as a literal string in a route or within a constraint, use '[[' or ']]' instead.
+
+Error 11:
+For action: 'TraversalCoreProje.Areas.Admin.Controllers.DestinationController.DeleteDestination (TraversalCoreProje)'
+Error: While processing template '[Admin]/[Destination]', a replacement value for the token 'Admin' could not be found. Available tokens: 'action, area, controller'. To use a '[' or ']' as a literal string in a route or within a constraint, use '[[' or ']]' instead.
+
+Error 12:
+For action: 'TraversalCoreProje.Areas.Admin.Controllers.DestinationController.UpdateDestination (TraversalCoreProje)'
+Error: While processing template '[Admin]/[Destination]', a replacement value for the token 'Admin' could not be found. Available tokens: 'action, area, controller'. To use a '[' or ']' as a literal string in a route or within a constraint, use '[[' or ']]' instead.
+
+Error 13:
+For action: 'TraversalCoreProje.Areas.Admin.Controllers.DestinationController.UpdateDestination (TraversalCoreProje)'
+Error: While processing template '[Admin]/[Destination]', a replacement value for the token 'Admin' could not be found. Available tokens: 'action, area, controller'. To use a '[' or ']' as a literal string in a route or within a constraint, use '[[' or ']]' instead.
+
+Error 14:
+For action: 'TraversalCoreProje.Areas.Admin.Controllers.GuideController.Index (TraversalCoreProje)'
+Error: While processing template '[Admin]/[Guide]', a replacement value for the token 'Admin' could not be found. Available tokens: 'action, area, controller'. To use a '[' or ']' as a literal string in a route or within a constraint, use '[[' or ']]' instead.
+
+Error 15:
+For action: 'TraversalCoreProje.Areas.Admin.Controllers.GuideController.AddGuide (TraversalCoreProje)'
+Error: While processing template '[Admin]/[Guide]', a replacement value for the token 'Admin' could not be found. Available tokens: 'action, area, controller'. To use a '[' or ']' as a literal string in a route or within a constraint, use '[[' or ']]' instead.
+
+Error 16:
+For action: 'TraversalCoreProje.Areas.Admin.Controllers.GuideController.AddGuide (TraversalCoreProje)'
+Error: While processing template '[Admin]/[Guide]', a replacement value for the token 'Admin' could not be found. Available tokens: 'action, area, controller'. To use a '[' or ']' as a literal string in a route or within a constraint, use '[[' or ']]' instead.
+
+Error 17:
+For action: 'TraversalCoreProje.Areas.Admin.Controllers.GuideController.EditGuide (TraversalCoreProje)'
+Error: While processing template '[Admin]/[Guide]', a replacement value for the token 'Admin' could not be found. Available tokens: 'action, area, controller'. To use a '[' or ']' as a literal string in a route or within a constraint, use '[[' or ']]' instead.
+
+Error 18:
+For action: 'TraversalCoreProje.Areas.Admin.Controllers.GuideController.EditGuide (TraversalCoreProje)'
+Error: While processing template '[Admin]/[Guide]', a replacement value for the token 'Admin' could not be found. Available tokens: 'action, area, controller'. To use a '[' or ']' as a literal string in a route or within a constraint, use '[[' or ']]' instead.
+
+Error 19:
+For action: 'TraversalCoreProje.Areas.Admin.Controllers.GuideController.ChangeStatus (TraversalCoreProje)'
+Error: While processing template '[Admin]/[Guide]', a replacement value for the token 'Admin' could not be found. Available tokens: 'action, area, controller'. To use a '[' or ']' as a literal string in a route or within a constraint, use '[[' or ']]' instead.
+
+Error 20:
+For action: 'TraversalCoreProje.Areas.Admin.Controllers.UserController.Index (TraversalCoreProje)'
+Error: While processing template '[Admin]/[User]', a replacement value for the token 'Admin' could not be found. Available tokens: 'action, area, controller'. To use a '[' or ']' as a literal string in a route or within a constraint, use '[[' or ']]' instead.
+
+Error 21:
+For action: 'TraversalCoreProje.Areas.Admin.Controllers.UserController.DeleteUser (TraversalCoreProje)'
+Error: While processing template '[Admin]/[User]', a replacement value for the token 'Admin' could not be found. Available tokens: 'action, area, controller'. To use a '[' or ']' as a literal string in a route or within a constraint, use '[[' or ']]' instead.
+
+Error 22:
+For action: 'TraversalCoreProje.Areas.Admin.Controllers.UserController.EditUser (TraversalCoreProje)'
+Error: While processing template '[Admin]/[User]', a replacement value for the token 'Admin' could not be found. Available tokens: 'action, area, controller'. To use a '[' or ']' as a literal string in a route or within a constraint, use '[[' or ']]' instead.
+
+Error 23:
+For action: 'TraversalCoreProje.Areas.Admin.Controllers.UserController.EditUser (TraversalCoreProje)'
+Error: While processing template '[Admin]/[User]', a replacement value for the token 'Admin' could not be found. Available tokens: 'action, area, controller'. To use a '[' or ']' as a literal string in a route or within a constraint, use '[[' or ']]' instead.
+
+Error 24:
+For action: 'TraversalCoreProje.Areas.Admin.Controllers.UserController.CommentUser (TraversalCoreProje)'
+Error: While processing template '[Admin]/[User]', a replacement value for the token 'Admin' could not be found. Available tokens: 'action, area, controller'. To use a '[' or ']' as a literal string in a route or within a constraint, use '[[' or ']]' instead.
+
+Error 25:
+For action: 'TraversalCoreProje.Areas.Admin.Controllers.UserController.ReservationUser (TraversalCoreProje)'
+Error: While processing template '[Admin]/[User]', a replacement value for the token 'Admin' could not be found. Available tokens: 'action, area, controller'. To use a '[' or ']' as a literal string in a route or within a constraint, use '[[' or ']]' instead.
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ApplicationModelFactory.Flatten[TResult](ApplicationModel application, Func`5 flattener)
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ControllerActionDescriptorBuilder.Build(ApplicationModel application)
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ControllerActionDescriptorProvider.GetDescriptors()
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ControllerActionDescriptorProvider.OnProvidersExecuting(ActionDescriptorProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider.UpdateCollection()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider.Initialize()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider.GetChangeToken()
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.<>c__DisplayClass11_0.<Subscribe>b__0()
+   at Microsoft.Extensions.Primitives.ChangeToken.OnChange(Func`1 changeTokenProducer, Action changeTokenConsumer)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.Subscribe()
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerActionEndpointDataSource..ctor(ControllerActionEndpointDataSourceIdProvider dataSourceIdProvider, IActionDescriptorCollectionProvider actions, ActionEndpointFactory endpointFactory, OrderedEndpointsSequenceProvider orderSequence)
+   at Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.GetOrCreateDataSource(IEndpointRouteBuilder endpoints)
+   at Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapControllerRoute(IEndpointRouteBuilder endpoints, String name, String pattern, Object defaults, Object constraints, Object dataTokens)
+   at TraversalCoreProje.Startup.<>c.<Configure>b__5_0(IEndpointRouteBuilder endpoints) in C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje\Startup.cs:line 85
+   at Microsoft.AspNetCore.Builder.EndpointRoutingApplicationBuilderExtensions.UseEndpoints(IApplicationBuilder builder, Action`1 configure)
+   at TraversalCoreProje.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory) in C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje\Startup.cs:line 83
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass15_0.<UseStartup>b__1(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISServerSetupFilter.<>c__DisplayClass2_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.WebTools.BrowserLink.Net.HostingStartup.<>c__DisplayClass1_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.HostingStartup.<>c__DisplayClass1_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+2022-11-04T12:07:59.6854685+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T12:07:59.7015054+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T12:07:59.7017774+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T12:09:47.9946964+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T12:09:48.0363310+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T12:09:48.0366884+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T12:10:38.7285230+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T12:10:38.7415761+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T12:10:38.7418671+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T12:10:44.7962753+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T12:10:44.8125664+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T12:10:44.8127273+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T12:11:33.7414359+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T12:11:33.7539272+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T12:11:33.7552180+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T12:11:54.1535822+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T12:11:54.1635247+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T12:11:54.1637273+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T12:13:06.9295843+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T12:13:06.9452724+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T12:13:06.9454746+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T12:14:23.7747295+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T12:14:23.8031073+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T12:14:23.8033067+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T12:14:38.3714468+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T12:14:38.4055389+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T12:14:38.4056993+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T12:15:04.4435176+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T12:15:04.4557290+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T12:15:04.4559060+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T12:15:56.3450391+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T12:15:56.3588986+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T12:15:56.3593572+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T12:16:13.8798477+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T12:16:13.8975996+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T12:16:13.8977761+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T12:18:36.6625413+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T12:18:36.6780733+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T12:18:36.6782738+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T12:18:36.9233758+03:00 80000169-0000-fb00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: The constraint reference 'Admin' could not be resolved to a type. Register the constraint type with 'Microsoft.AspNetCore.Routing.RouteOptions.ConstraintMap'.
+   at Microsoft.AspNetCore.Routing.DefaultParameterPolicyFactory.Create(RoutePatternParameterPart parameter, String inlineText)
+   at Microsoft.AspNetCore.Routing.ParameterPolicyFactory.Create(RoutePatternParameterPart parameter, RoutePatternParameterPolicyReference reference)
+   at Microsoft.AspNetCore.Routing.Patterns.DefaultRoutePatternTransformer.MatchesConstraints(RoutePattern pattern, RoutePatternParameterPart parameter, String key, RouteValueDictionary requiredValues)
+   at Microsoft.AspNetCore.Routing.Patterns.DefaultRoutePatternTransformer.SubstituteRequiredValuesCore(RoutePattern original, RouteValueDictionary requiredValues)
+   at Microsoft.AspNetCore.Routing.Patterns.DefaultRoutePatternTransformer.SubstituteRequiredValues(RoutePattern original, Object requiredValues)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointFactory.AddEndpoints(List`1 endpoints, HashSet`1 routeNames, ActionDescriptor action, IReadOnlyList`1 routes, IReadOnlyList`1 conventions, Boolean createInertEndpoints)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerActionEndpointDataSource.CreateEndpoints(IReadOnlyList`1 actions, IReadOnlyList`1 conventions)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.UpdateEndpoints()
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.Initialize()
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.get_Endpoints()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.<>c.<Initialize>b__15_0(EndpointDataSource d)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.ToArray()
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.Initialize()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.GetChangeToken()
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at System.Threading.LazyInitializer.EnsureInitialized[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|8_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-11-04T12:18:53.1487739+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T12:18:53.1586903+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T12:18:53.1588504+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T12:18:53.3547401+03:00 80000043-0003-fd00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: The constraint reference 'Admin' could not be resolved to a type. Register the constraint type with 'Microsoft.AspNetCore.Routing.RouteOptions.ConstraintMap'.
+   at Microsoft.AspNetCore.Routing.DefaultParameterPolicyFactory.Create(RoutePatternParameterPart parameter, String inlineText)
+   at Microsoft.AspNetCore.Routing.ParameterPolicyFactory.Create(RoutePatternParameterPart parameter, RoutePatternParameterPolicyReference reference)
+   at Microsoft.AspNetCore.Routing.Patterns.DefaultRoutePatternTransformer.MatchesConstraints(RoutePattern pattern, RoutePatternParameterPart parameter, String key, RouteValueDictionary requiredValues)
+   at Microsoft.AspNetCore.Routing.Patterns.DefaultRoutePatternTransformer.SubstituteRequiredValuesCore(RoutePattern original, RouteValueDictionary requiredValues)
+   at Microsoft.AspNetCore.Routing.Patterns.DefaultRoutePatternTransformer.SubstituteRequiredValues(RoutePattern original, Object requiredValues)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointFactory.AddEndpoints(List`1 endpoints, HashSet`1 routeNames, ActionDescriptor action, IReadOnlyList`1 routes, IReadOnlyList`1 conventions, Boolean createInertEndpoints)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerActionEndpointDataSource.CreateEndpoints(IReadOnlyList`1 actions, IReadOnlyList`1 conventions)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.UpdateEndpoints()
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.Initialize()
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.get_Endpoints()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.<>c.<Initialize>b__15_0(EndpointDataSource d)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.ToArray()
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.Initialize()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.GetChangeToken()
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at System.Threading.LazyInitializer.EnsureInitialized[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|8_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-11-04T12:18:57.9026911+03:00 80000093-0001-ff00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: The constraint reference 'Admin' could not be resolved to a type. Register the constraint type with 'Microsoft.AspNetCore.Routing.RouteOptions.ConstraintMap'.
+   at Microsoft.AspNetCore.Routing.DefaultParameterPolicyFactory.Create(RoutePatternParameterPart parameter, String inlineText)
+   at Microsoft.AspNetCore.Routing.ParameterPolicyFactory.Create(RoutePatternParameterPart parameter, RoutePatternParameterPolicyReference reference)
+   at Microsoft.AspNetCore.Routing.Patterns.DefaultRoutePatternTransformer.MatchesConstraints(RoutePattern pattern, RoutePatternParameterPart parameter, String key, RouteValueDictionary requiredValues)
+   at Microsoft.AspNetCore.Routing.Patterns.DefaultRoutePatternTransformer.SubstituteRequiredValuesCore(RoutePattern original, RouteValueDictionary requiredValues)
+   at Microsoft.AspNetCore.Routing.Patterns.DefaultRoutePatternTransformer.SubstituteRequiredValues(RoutePattern original, Object requiredValues)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointFactory.AddEndpoints(List`1 endpoints, HashSet`1 routeNames, ActionDescriptor action, IReadOnlyList`1 routes, IReadOnlyList`1 conventions, Boolean createInertEndpoints)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerActionEndpointDataSource.CreateEndpoints(IReadOnlyList`1 actions, IReadOnlyList`1 conventions)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.UpdateEndpoints()
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.Initialize()
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.get_Endpoints()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.<>c.<Initialize>b__15_0(EndpointDataSource d)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.ToArray()
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.Initialize()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.GetChangeToken()
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at System.Threading.LazyInitializer.EnsureInitialized[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|8_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-11-04T12:18:58.9578444+03:00 80000045-0003-fd00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: The constraint reference 'Admin' could not be resolved to a type. Register the constraint type with 'Microsoft.AspNetCore.Routing.RouteOptions.ConstraintMap'.
+   at Microsoft.AspNetCore.Routing.DefaultParameterPolicyFactory.Create(RoutePatternParameterPart parameter, String inlineText)
+   at Microsoft.AspNetCore.Routing.ParameterPolicyFactory.Create(RoutePatternParameterPart parameter, RoutePatternParameterPolicyReference reference)
+   at Microsoft.AspNetCore.Routing.Patterns.DefaultRoutePatternTransformer.MatchesConstraints(RoutePattern pattern, RoutePatternParameterPart parameter, String key, RouteValueDictionary requiredValues)
+   at Microsoft.AspNetCore.Routing.Patterns.DefaultRoutePatternTransformer.SubstituteRequiredValuesCore(RoutePattern original, RouteValueDictionary requiredValues)
+   at Microsoft.AspNetCore.Routing.Patterns.DefaultRoutePatternTransformer.SubstituteRequiredValues(RoutePattern original, Object requiredValues)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointFactory.AddEndpoints(List`1 endpoints, HashSet`1 routeNames, ActionDescriptor action, IReadOnlyList`1 routes, IReadOnlyList`1 conventions, Boolean createInertEndpoints)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerActionEndpointDataSource.CreateEndpoints(IReadOnlyList`1 actions, IReadOnlyList`1 conventions)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.UpdateEndpoints()
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.Initialize()
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.get_Endpoints()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.<>c.<Initialize>b__15_0(EndpointDataSource d)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.ToArray()
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.Initialize()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.GetChangeToken()
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at System.Threading.LazyInitializer.EnsureInitialized[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|8_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-11-04T12:19:25.5212710+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T12:19:25.5349014+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T12:19:25.5350791+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T12:19:25.7219107+03:00 800000ef-0001-f600-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: The constraint reference 'Admin' could not be resolved to a type. Register the constraint type with 'Microsoft.AspNetCore.Routing.RouteOptions.ConstraintMap'.
+   at Microsoft.AspNetCore.Routing.DefaultParameterPolicyFactory.Create(RoutePatternParameterPart parameter, String inlineText)
+   at Microsoft.AspNetCore.Routing.ParameterPolicyFactory.Create(RoutePatternParameterPart parameter, RoutePatternParameterPolicyReference reference)
+   at Microsoft.AspNetCore.Routing.Patterns.DefaultRoutePatternTransformer.MatchesConstraints(RoutePattern pattern, RoutePatternParameterPart parameter, String key, RouteValueDictionary requiredValues)
+   at Microsoft.AspNetCore.Routing.Patterns.DefaultRoutePatternTransformer.SubstituteRequiredValuesCore(RoutePattern original, RouteValueDictionary requiredValues)
+   at Microsoft.AspNetCore.Routing.Patterns.DefaultRoutePatternTransformer.SubstituteRequiredValues(RoutePattern original, Object requiredValues)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointFactory.AddEndpoints(List`1 endpoints, HashSet`1 routeNames, ActionDescriptor action, IReadOnlyList`1 routes, IReadOnlyList`1 conventions, Boolean createInertEndpoints)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerActionEndpointDataSource.CreateEndpoints(IReadOnlyList`1 actions, IReadOnlyList`1 conventions)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.UpdateEndpoints()
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.Initialize()
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.get_Endpoints()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.<>c.<Initialize>b__15_0(EndpointDataSource d)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.ToArray()
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.Initialize()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.GetChangeToken()
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at System.Threading.LazyInitializer.EnsureInitialized[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|8_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-11-04T12:21:21.1432295+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T12:21:21.1585176+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T12:21:21.1587957+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T12:21:38.5250243+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T12:21:38.5334993+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T12:21:38.5336661+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T12:22:17.8906794+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T12:22:17.9036700+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T12:22:17.9038581+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T12:55:17.8752191+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T12:55:17.8906261+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T12:55:17.8908206+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T12:55:48.3494916+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T12:55:48.3745227+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T12:55:48.3747330+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T13:28:14.6187177+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T13:28:14.6409888+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T13:28:14.6413205+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T13:28:56.4333162+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T13:28:56.4465696+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T13:28:56.4466963+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2022-11-04T13:35:51.4377284+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-04T13:35:51.4615894+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-04T13:35:51.4626724+03:00  [INF] Content root path: "C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)

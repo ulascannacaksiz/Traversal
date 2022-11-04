@@ -25,6 +25,7 @@
                                asp-for="Name"
                                aria-describedby="basic-icon-default-fullname2" />
                     </div>
+                    <span asp-validation-for="Name" class="text-danger"></span>
                 </div>
                 <div class="mb-3">
                     <label class="form-label" for="basic-icon-default-company">Resim</label>
@@ -71,6 +72,10 @@
                               asp-for="Description"
                               aria-label="Hi, Do you have a moment to talk Joe?"
                               aria-describedby="basic-icon-default-message2"></textarea>
+                    
+                </div>
+                <div>
+                    <span asp-validation-for="Description" class="text-danger"></span>
                 </div>
                 <button type="submit" class="btn btn-primary mt-3">Oluştur</button>
             </form>

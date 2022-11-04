@@ -1,0 +1,80 @@
+﻿@model EntityLayer.Concrete.Guide
+@{
+    ViewData["Title"] = "EditGuide";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Rehber Düzenle</h1>
+
+<div class="col-xl">
+    <div class="card mb-4">
+        <div class="card-header d-flex justify-content-between align-items-center">
+            <h5 class="mb-0">Basic with Icons</h5>
+            <small class="text-muted float-end">Yeni Rehber Oluştur</small>
+        </div>
+        <div class="card-body">
+            <form method="post">
+                @Html.HiddenFor(x=>x.GuideId)
+                <div class="mb-3">
+                    <label class="form-label" for="basic-icon-default-fullname">Ad</label>
+                    <div class="input-group input-group-merge">
+                        <span id="basic-icon-default-fullname2" class="input-group-text">
+                            <i class="bx bx-user"></i>
+                        </span>
+                        <input type="text"
+                               class="form-control"
+                               asp-for="Name"
+                               aria-describedby="basic-icon-default-fullname2" />
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="basic-icon-default-company">Resim</label>
+                    <div class="input-group input-group-merge">
+                        <span id="basic-icon-default-company2" class="input-group-text">
+                            <i class="bx bx-buildings"></i>
+                        </span>
+                        <input type="text"
+                               class="form-control"
+                               asp-for="Image"
+                               aria-describedby="basic-icon-default-company2" />
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="basic-icon-default-email">İnstagram</label>
+                    <div class="input-group input-group-merge">
+                        <span class="input-group-text"><i class="bx bx-envelope"></i></span>
+                        <input type="text"
+                               class="form-control"
+                               asp-for="InstagramUrl"
+                               aria-describedby="basic-icon-default-email2" />
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="basic-icon-default-phone">Twitter</label>
+                    <div class="input-group input-group-merge">
+                        <span id="basic-icon-default-phone2" class="input-group-text">
+                            <i class="bx bx-phone"></i>
+                        </span>
+                        <input type="text"
+                               class="form-control"
+                               asp-for="TwitterUrl"
+                               aria-describedby="basic-icon-default-phone2" />
+                    </div>
+                </div>
+
+                <label class="form-label" for="basic-icon-default-message">Detay</label>
+                <div class="input-group input-group-merge">
+                    <span id="basic-icon-default-message2" class="input-group-text">
+                        <i class="bx bx-comment"></i>
+                    </span>
+                    <textarea id="basic-icon-default-message"
+                              class="form-control"
+                              asp-for="Description"
+                              aria-label="Hi, Do you have a moment to talk Joe?"
+                              aria-describedby="basic-icon-default-message2"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary mt-3">Kaydet</button>
+            </form>
+        </div>
+    </div>
+</div>
