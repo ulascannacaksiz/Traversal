@@ -2,6 +2,7 @@
 using BusinessLayer.ValidationRules;
 using EntityLayer.Concrete;
 using FluentValidation.Results;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 
@@ -9,30 +10,27 @@ namespace TraversalCoreProje.Areas.Admin.Controllers
 {
     [Area("Admin")]
     [Route("Admin/Guide/[action]/{id?}")]
+    [AllowAnonymous]
     public class GuideController : Controller
     {
-        public void AlertShow(string type, string subject, string message)
-        {
-            TempData["Type"] = type;
-            TempData["Subject"] = subject;
-            TempData["Description"] = message;
-        }
-        private readonly IGuideService _guideService;
 
-        public GuideController(IGuideService guideService)
+        private readonly IGuideService _guideService;
+        private readonly IAlertService _alertService;
+
+        public GuideController(IGuideService guideService, IAlertService alertService)
         {
             _guideService = guideService;
+            _alertService = alertService;
         }
 
         public IActionResult Index()
-        {
+        {           
             var values = _guideService.TGetList();
             return View(values);
         }
         [HttpGet]
         public IActionResult AddGuide()
-        {
-            
+        {           
             return View();
         }
         [HttpPost]
@@ -43,7 +41,8 @@ namespace TraversalCoreProje.Areas.Admin.Controllers
             if (result.IsValid)
             {
                 _guideService.TAdd(guide);
-                AlertShow("success", "Başarılı", "Yeni Rehber Başarıyla Eklendi!");
+                _alertService.ShowAlert("success", "Başarılı", "Yeni Rehber Başarıyla Eklendi!");
+               
                 return RedirectToAction("Index");
             }
             else
@@ -52,7 +51,7 @@ namespace TraversalCoreProje.Areas.Admin.Controllers
                 {
                     ModelState.AddModelError(item.PropertyName,item.ErrorMessage);
                 }
-                AlertShow("error", "Başarısız", "Rehber eklenemedi!");
+                _alertService.ShowAlert("error", "Başarısız", "Rehber eklenemedi!");
                 return View();
             }
 
@@ -69,7 +68,7 @@ namespace TraversalCoreProje.Areas.Admin.Controllers
         public IActionResult EditGuide(Guide guide)
         {
             _guideService.TUpdate(guide);
-            AlertShow("success", "Başarılı", "Rehber Bilgisi Başarıyla Güncellendi!");
+            _alertService.ShowAlert("success", "Başarılı", "Rehber Bilgisi Başarıyla Güncellendi!");
             return RedirectToAction("Index");
         }
         public IActionResult ChangeStatus(int id)
@@ -77,7 +76,7 @@ namespace TraversalCoreProje.Areas.Admin.Controllers
             var values = _guideService.TGetById(id);
             values.Status = !values.Status;
             _guideService.TUpdate(values);
-            AlertShow("success", "Başarılı", "Rehber durumu güncellendi!");
+            _alertService.ShowAlert("success", "Başarılı", "Rehber durumu güncellendi!");
             return RedirectToAction("Index");
         }
     }
