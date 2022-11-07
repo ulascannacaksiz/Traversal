@@ -1,4 +1,5 @@
-﻿@model List<Guide>
+﻿@*model List<Guide>*@
+@model List<TraversalCoreProje.Areas.Admin.Models.GuideViewModel>
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
@@ -27,8 +28,8 @@
             <td><img src="@item.Image" class="rounded" width="50" height="50" /></td>
             <td>@item.Name</td>
             <td>@item.Description</td>
-            <td><a href="/Admin/Guide/ChangeStatus/@item.GuideId" class='badge bg-label-@(item.Status == true ? "danger" : "info") rounded-pill'>@(item.Status == true ? "pasif yap" : "aktif yap")</a></td>
-            <td><a href="/Admin/Guide/EditGuide/@item.GuideId" class="btn btn-warning">Düzenle</a></td>
+            <td><a href="/Admin/Guide/ChangeStatus/@item.EncryptedId" class='badge bg-label-@(item.Status == true ? "danger" : "info") rounded-pill'>@(item.Status == true ? "pasif yap" : "aktif yap")</a></td>
+            <td><a href="/Admin/Guide/EditGuide/@item.EncryptedId" class="btn btn-warning">Düzenle</a></td>
         </tr>
     }
 </table>

@@ -1,8 +1,10 @@
-﻿@using EntityLayer.Concrete
-@model List<Destination>
+﻿@*@using EntityLayer.Concrete*@
+
+@model List<TraversalCoreProje.Areas.Admin.Models.DestinationViewModel>
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    int c = 0;
 }
 
 <h1>Rotalar</h1>
@@ -17,14 +19,16 @@
         <th>Güncelle</th>
     </tr>
     @foreach(var item in Model){
+        c++;
         <tr>
-            <td>@item.DestinationId</td>
+            
+            <td>@c</td>
             <td>@item.City</td>
             <td>@item.Price</td>
             <td>@item.Capacity</td>
             <td><a href="/Destination/DestinationDetails/@item.DestinationId" class="btn btn-info">Sitede gör</a></td>
-            <td><a href="/Admin/Destination/DeleteDestination/@item.DestinationId" class="btn btn-danger">Sil</a></td>
-            <td><a href="/Admin/Destination/UpdateDestination/@item.DestinationId" class="btn btn-warning">Güncelle</a></td>
+            <td><a href="/Admin/Destination/DeleteDestination/@item.EncryptedId" class="btn btn-danger">Sil</a></td>
+            <td><a href="/Admin/Destination/UpdateDestination/@item.EncryptedId" class="btn btn-warning">Güncelle</a></td>
         </tr>
     }
 </table>

@@ -1,9 +1,16 @@
 ﻿using BusinessLayer.Abstract;
 using BusinessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
+using DocumentFormat.OpenXml.Bibliography;
+using DocumentFormat.OpenXml.Wordprocessing;
 using EntityLayer.Concrete;
+using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
+using System.Linq;
 using System.Linq.Expressions;
+using TraversalCoreProje.Areas.Admin.Models;
+using Destination = EntityLayer.Concrete.Destination;
 
 namespace TraversalCoreProje.Areas.Admin.Controllers
 {
@@ -13,16 +20,34 @@ namespace TraversalCoreProje.Areas.Admin.Controllers
     {
         //DestinationManager destinationManager = new DestinationManager(new EfDestinationDal());
         private readonly IDestinationService _destinationService;
+        private readonly IDataProtector _dataProtector;
 
-        public DestinationController(IDestinationService destinationService)
+        public DestinationController(IDestinationService destinationService, IDataProtectionProvider dataProtectorProvider)
         {
             _destinationService = destinationService;
+            _dataProtector = dataProtectorProvider.CreateProtector("protectorname1");
         }
 
         public IActionResult Index()
         {
             var values = _destinationService.TGetList();
-            return View(values);
+            List<DestinationViewModel> destinationViewModels = new List<DestinationViewModel>();
+            destinationViewModels = values.Select(x => new DestinationViewModel
+            {
+                DestinationId = x.DestinationId,
+                Capacity = x.Capacity,
+                City = x.City,
+                DayNight = x.DayNight,
+                Price = x.Price,
+                Image = x.Image,
+                Description = x.Description,
+                CoverImage = x.CoverImage,
+                Details1 = x.Details1,
+                Details2 = x.Details2,
+                Image2 = x.Image2,
+                EncryptedId = _dataProtector.Protect(x.DestinationId.ToString())
+            }).ToList(); ;
+            return View(destinationViewModels);
         }
 
         [HttpGet]
@@ -37,16 +62,18 @@ namespace TraversalCoreProje.Areas.Admin.Controllers
             _destinationService.TAdd(destination);
             return RedirectToAction("Index");
         }
-        public IActionResult DeleteDestination(int id)
+        public IActionResult DeleteDestination(string id)
         {
-            var values = _destinationService.TGetById(id);
+            int decryptId = int.Parse(_dataProtector.Unprotect(id));
+            var values = _destinationService.TGetById(decryptId);
             _destinationService.TDelete(values);
             return RedirectToAction("Index");
         }
         [HttpGet]
-        public IActionResult UpdateDestination(int id)
+        public IActionResult UpdateDestination(string id)
         {
-            var values = _destinationService.TGetById(id);
+            int decryptId = int.Parse(_dataProtector.Unprotect(id));
+            var values = _destinationService.TGetById(decryptId);
             return View(values);
         }
         [HttpPost]
