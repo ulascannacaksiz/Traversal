@@ -1,0 +1,31 @@
+﻿@model List<Comment>
+@{
+    ViewData["Title"] = "CommentUser";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    int c = 0;
+}
+
+<h1>Kullanıcı Yorumları</h1>
+
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Blog</th>
+        <th>Tarih</th>
+        <th>Yorum</th>
+        <th>Durum</th>
+        <th>Sil</th>
+    </tr>
+    @foreach(var item in Model){
+        c++;
+        <tr>
+            <td>@c</td>
+            <td>@item.DestinationId</td>
+            <td>@item.CommentDate.ToString("dd-MMM-yyyy")</td>
+            <td>@item.CommentContent</td>
+            <td>@item.Status</td>
+            <td><a href="" class="btn btn-danger">Sil</a> </td>
+        </tr>
+    }
+
+</table>

@@ -49,6 +49,7 @@ namespace TraversalCoreProje
 
             services.ContainerDependencies();
 
+            services.ConfigureApplicationCookie(options => options.LoginPath = "/Login/SignIn");
             services.AddMvc(config =>
             {
                 var policy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();

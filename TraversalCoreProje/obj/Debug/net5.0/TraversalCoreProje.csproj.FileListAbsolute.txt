@@ -518,3 +518,5 @@ C:\Users\UlasCan\Desktop\traversal\Traversal\TraversalCoreProje\obj\Debug\net5.0
 C:\Users\UlasCan\Desktop\traversal\Traversal\TraversalCoreProje\obj\Debug\net5.0\TraversalCoreProje.pdb
 C:\Users\UlasCan\Desktop\traversal\Traversal\TraversalCoreProje\obj\Debug\net5.0\TraversalCoreProje.genruntimeconfig.cache
 C:\Users\UlasCan\Desktop\traversal\Traversal\TraversalCoreProje\obj\Debug\net5.0\ref\TraversalCoreProje.dll
+C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Admin\Views\User\CommentUser.cshtml.g.cs
+C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Admin\Views\User\EditUser.cshtml.g.cs
