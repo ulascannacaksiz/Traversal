@@ -2461,6 +2461,16 @@
           "bin/placeholder/DataAccessLayer.dll": {}
         }
       },
+      "DTOLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/DTOLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DTOLayer.dll": {}
+        }
+      },
       "EntityLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -7472,6 +7482,11 @@
       "path": "../DataAccessLayer/DataAccessLayer.csproj",
       "msbuildProject": "../DataAccessLayer/DataAccessLayer.csproj"
     },
+    "DTOLayer/1.0.0": {
+      "type": "project",
+      "path": "../DTOLayer/DTOLayer.csproj",
+      "msbuildProject": "../DTOLayer/DTOLayer.csproj"
+    },
     "EntityLayer/1.0.0": {
       "type": "project",
       "path": "../EntityLayer/EntityLayer.csproj",
@@ -7480,6 +7495,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "DTOLayer >= 1.0.0",
       "DataAccessLayer >= 1.0.0",
       "EPPlus >= 6.1.0",
       "EntityLayer >= 1.0.0",
@@ -7527,6 +7543,9 @@
           "projectReferences": {
             "C:\\Users\\ulas.nacaksiz\\source\\repos\\TraversalCoreProje\\DataAccessLayer\\DataAccessLayer.csproj": {
               "projectPath": "C:\\Users\\ulas.nacaksiz\\source\\repos\\TraversalCoreProje\\DataAccessLayer\\DataAccessLayer.csproj"
+            },
+            "C:\\Users\\ulas.nacaksiz\\source\\repos\\TraversalCoreProje\\DTOLayer\\DTOLayer.csproj": {
+              "projectPath": "C:\\Users\\ulas.nacaksiz\\source\\repos\\TraversalCoreProje\\DTOLayer\\DTOLayer.csproj"
             },
             "C:\\Users\\ulas.nacaksiz\\source\\repos\\TraversalCoreProje\\EntityLayer\\EntityLayer.csproj": {
               "projectPath": "C:\\Users\\ulas.nacaksiz\\source\\repos\\TraversalCoreProje\\EntityLayer\\EntityLayer.csproj"

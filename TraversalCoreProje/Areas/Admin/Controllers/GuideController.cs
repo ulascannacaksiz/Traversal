@@ -15,7 +15,7 @@ namespace TraversalCoreProje.Areas.Admin.Controllers
 {
     [Area("Admin")]
     [Route("Admin/Guide/[action]/{id?}")]
-    [AllowAnonymous]
+
     public class GuideController : Controller
     {
 

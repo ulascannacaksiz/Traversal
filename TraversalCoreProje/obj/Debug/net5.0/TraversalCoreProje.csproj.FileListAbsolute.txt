@@ -520,3 +520,6 @@ C:\Users\UlasCan\Desktop\traversal\Traversal\TraversalCoreProje\obj\Debug\net5.0
 C:\Users\UlasCan\Desktop\traversal\Traversal\TraversalCoreProje\obj\Debug\net5.0\ref\TraversalCoreProje.dll
 C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Admin\Views\User\CommentUser.cshtml.g.cs
 C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Admin\Views\User\EditUser.cshtml.g.cs
+C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje\bin\Debug\net5.0\DTOLayer.dll
+C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje\bin\Debug\net5.0\DTOLayer.pdb
+C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Admin\Views\ContactUs\Index.cshtml.g.cs
