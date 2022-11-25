@@ -523,3 +523,9 @@ C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje\obj\De
 C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje\bin\Debug\net5.0\DTOLayer.dll
 C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje\bin\Debug\net5.0\DTOLayer.pdb
 C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Admin\Views\ContactUs\Index.cshtml.g.cs
+C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Admin\Views\Announcement\Index.cshtml.g.cs

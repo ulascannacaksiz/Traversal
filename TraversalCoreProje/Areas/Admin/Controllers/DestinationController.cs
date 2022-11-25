@@ -57,6 +57,7 @@ namespace TraversalCoreProje.Areas.Admin.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult AddDestination(Destination destination)
         {
             _destinationService.TAdd(destination);
@@ -77,6 +78,7 @@ namespace TraversalCoreProje.Areas.Admin.Controllers
             return View(values);
         }
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult UpdateDestination(Destination destination)
         {
             _destinationService.TUpdate(destination);

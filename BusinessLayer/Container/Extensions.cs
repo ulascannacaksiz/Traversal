@@ -2,9 +2,11 @@
 using BusinessLayer.Concrete;
 using DataAccessLayer.Abstract;
 using DataAccessLayer.EntityFramework;
+using EntityLayer.Concrete;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
+using System.IO.Pipes;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -27,6 +29,9 @@ namespace BusinessLayer.Container
 
             services.AddScoped<IReservationService, ReservationManager>();
             services.AddScoped<IReservationDal, EfReservationDal>();
+
+            services.AddScoped<IAnnouncementService,AnnouncementManager>();
+            services.AddScoped<IAnnouncementDal, EfAnnouncementDal>();
 
             services.AddScoped<IGuideService, GuideManager>();
             services.AddScoped<IGuideDal, EfGuideDal>();

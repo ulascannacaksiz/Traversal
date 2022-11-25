@@ -1,10 +1,14 @@
 using BusinessLayer.Abstract;
 using BusinessLayer.Concrete;
 using BusinessLayer.Container;
+using BusinessLayer.ValidationRules;
 using DataAccessLayer.Abstract;
 using DataAccessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
+using DTOLayer.DTOs.AnnouncementDTOs;
 using EntityLayer.Concrete;
+using FluentValidation;
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -49,6 +53,11 @@ namespace TraversalCoreProje
 
             services.ContainerDependencies();
 
+            services.AddAutoMapper(typeof(Startup));
+
+            services.AddTransient<IValidator<AnnouncementAddDTO>, AnnouncementValidator>();
+            services.AddControllersWithViews().AddFluentValidation();
+
             services.ConfigureApplicationCookie(options => options.LoginPath = "/Login/SignIn");
             services.AddMvc(config =>
             {
@@ -62,6 +71,7 @@ namespace TraversalCoreProje
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env,ILoggerFactory loggerFactory)
         {
             var path = Directory.GetCurrentDirectory();
+            
             loggerFactory.AddFile($"{path}\\Logs\\Log1.txt");
             if (env.IsDevelopment())
             {
