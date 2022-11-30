@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DTOLayer.DTOs.AppUserDTOs
 {
-    public class AppUserRegisterDTO
+    public class AppUserRegisterDto
     {
         public string Name { get; set; }
 

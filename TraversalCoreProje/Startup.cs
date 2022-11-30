@@ -1,29 +1,16 @@
-using BusinessLayer.Abstract;
-using BusinessLayer.Concrete;
 using BusinessLayer.Container;
-using BusinessLayer.ValidationRules;
-using DataAccessLayer.Abstract;
 using DataAccessLayer.Concrete;
-using DataAccessLayer.EntityFramework;
-using DTOLayer.DTOs.AnnouncementDTOs;
 using EntityLayer.Concrete;
-using FluentValidation;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Net;
-using System.Threading.Tasks;
 using TraversalCoreProje.Models;
 
 namespace TraversalCoreProje
@@ -55,7 +42,7 @@ namespace TraversalCoreProje
 
             services.AddAutoMapper(typeof(Startup));
 
-            services.AddTransient<IValidator<AnnouncementAddDTO>, AnnouncementValidator>();
+            services.CustomValidator();
             services.AddControllersWithViews().AddFluentValidation();
 
             services.ConfigureApplicationCookie(options => options.LoginPath = "/Login/SignIn");

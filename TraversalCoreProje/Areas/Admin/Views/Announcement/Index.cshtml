@@ -1,5 +1,5 @@
-﻿@using TraversalCoreProje.Areas.Admin.Models
-@model List<AnnouncementListViewModel>
+﻿@using DTOLayer.DTOs.AnnouncementDTOs
+@model List<AnnouncementListDto>
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
@@ -13,17 +13,20 @@
         <th>Başlık</th>
         <th>İçerik</th>
         <th>Detaylar</th>
+        <th>Güncelle</th>
+        <th>Sil</th>
     </tr>
     @foreach (var item in Model)
    {
         c+=1;
         <tr>
-           
            <td>@c</td>
            <td>@item.Title</td>
            <td>@item.Content</td>
-            <td><a href=">@item.Title" class="btn btn-info">Detaylar</a></td>
-
+            <td><a href="/Admin/Announcement/@item.AnnouncementId" class="btn btn-info">Detaylar</a></td>
+            <td><a href="/Admin/Announcement/UpdateAnnouncement/@item.AnnouncementId" class="btn btn-warning">Detaylar</a></td>
+            <td><a href="/Admin/Announcement/DeleteAnnouncement/@item.AnnouncementId" class="btn btn-danger">Sil</a></td>
        </tr>
    }
 </table>
+<a href="/Admin/Announcement/AddAnnouncement" class="btn btn-primary">Duyuru Ekle</a>

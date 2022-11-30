@@ -12,11 +12,11 @@
 @await Html.PartialAsync("~/Views/Admin/PartialHeader.cshtml")
 
 <body>
-    @if (TempData["Type"] != null){
+ 
         <script>
             toastr["@TempData["Type"]"]("@TempData["Description"]", "@TempData["Subject"]")
         </script>
-    }
+   
 
     <div class="layout-wrapper layout-content-navbar">
         <div class="layout-container">
