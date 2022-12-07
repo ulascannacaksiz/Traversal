@@ -531,3 +531,6 @@ C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje\obj\De
 C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\TraversalCoreProje.pdb
 C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\TraversalCoreProje.genruntimeconfig.cache
 C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\ref\TraversalCoreProje.dll
+C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Admin\Views\VisitorApi\Index.cshtml.g.cs
+C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Admin\Views\VisitorApi\AddVisitor.cshtml.g.cs
+C:\Users\ulas.nacaksiz\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Admin\Views\VisitorApi\UpdateVisitor.cshtml.g.cs

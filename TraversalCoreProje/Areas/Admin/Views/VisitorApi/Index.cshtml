@@ -1,0 +1,39 @@
+﻿@using TraversalCoreProje.Areas.Admin.Models
+@model List<VisitorViewModel>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Index</h1>
+
+<table class="table table-bordered">
+
+    <tr>
+        <th>#</th>
+        <th>Ad</th>
+        <th>Soyad</th>
+        <th>Mail</th>
+        <th>Şehir</th>
+        <th>Ülke</th>
+        <th>Sil</th>
+        <th>Güncelle</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.VisitorId</td>
+            <td>@item.Name</td>
+            <td>@item.Surname</td>
+            <td>@item.Mail</td>
+            <td>@item.City</td>
+            <td>@item.Country</td>
+            <td><a href="/Admin/VisitorApi/DeleteVisitor/@item.VisitorId" class="btn btn-danger">Sil</a></td>
+            <td><a href="/Admin/VisitorApi/UpdateVisitor/@item.VisitorId" class="btn btn-warning">Düzenle</a></td>
+
+
+        </tr>
+    }
+
+</table>
+<td><a class="btn btn-info" href="/Admin/VisitorApi/AddVisitor">Yeni Kişi Ekle</a></td>
