@@ -1,0 +1,28 @@
+﻿@using TraversalCoreProje.Areas.Admin.Models
+@model List<ApiViewModel>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Api IMDB TOP 100 Listesi</h1>
+
+<table class="table table-striped">
+    <tr>
+        <th>#</th>
+        <th>Film adı</th>
+        <th>Imdb puan</th>
+        <th>Yapım yıl</th>
+        <th>Fragman</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <th>@item.rank</th>
+            <th>@item.title</th>
+            <th>@item.rating</th>
+            <th>@item.year</th>
+            <th><a href="@item.trailer" class="btn btn-outline-info">Fragmanı Aç</a></th>
+        </tr>
+    }
+</table>
