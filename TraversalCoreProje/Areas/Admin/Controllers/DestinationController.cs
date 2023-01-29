@@ -46,7 +46,8 @@ namespace TraversalCoreProje.Areas.Admin.Controllers
                 Details2 = x.Details2,
                 Image2 = x.Image2,
                 EncryptedId = _dataProtector.Protect(x.DestinationId.ToString())
-            }).ToList(); ;
+            }).ToList();
+            
             return View(destinationViewModels);
         }
 

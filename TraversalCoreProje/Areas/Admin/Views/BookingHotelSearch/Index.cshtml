@@ -1,0 +1,55 @@
+﻿@using TraversalCoreProje.Areas.Admin.Models
+@model IEnumerable<BookingHotelSearchViewModel.Result>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    int count = 0;
+    string ScorWord = "";
+}
+<h1>Booking Otel Rezervasyon Sayfası</h1>
+<h3>Arama yapılan:Paris/Fransa</h3>
+
+<table class="table table-striped">
+    <tr>
+        <th>#</th>
+        <th>Otel</th>
+        <th>Otel Puanı</th>
+        <th>Otel Değerlendirmesi</th>
+        <th>Detaylar</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        count++;
+       
+            if(item.reviewScoreWord=="Very good")
+            {
+                ScorWord = "Çok iyi";
+            }
+                       
+            if(item.reviewScoreWord=="Good")
+            {
+                ScorWord = "İyi";
+            }                        
+            if(item.reviewScoreWord=="Fabulous")
+            {
+                ScorWord = "Harika";
+            }            
+            if(item.reviewScoreWord=="Superb")
+            {
+                ScorWord = "Süperrz";
+            }          
+            if(item.reviewScoreWord=="Pleasant")
+            {
+                ScorWord = "İdare eder";
+            }
+        
+        <tr>
+           <td>@count</td>
+           <td>@item.name</td>
+           <td>@item.reviewScore</td>
+           <td>@ScorWord</td>
+           <td><a href="#" class="btn btn-dark">Detaylar</a></td>
+       </tr>
+   }
+</table>
