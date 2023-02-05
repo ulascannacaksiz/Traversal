@@ -14,7 +14,8 @@ namespace DataAccessLayer.Concrete
         //Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=master;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server=(localdb)\\MSSQLLocalDB;database=TraversalDB;Integrated Security=True;");
+            //optionsBuilder.UseSqlServer("server=(localdb)\\MSSQLLocalDB;database=TraversalDB;Integrated Security=True;");
+            optionsBuilder.UseSqlServer("server=DESKTOP-HTVP6MT\\SQLEXPRESS01;database=TraversalDB;Integrated Security=True;");
         }
 
         public DbSet<About> Abouts { get; set; }

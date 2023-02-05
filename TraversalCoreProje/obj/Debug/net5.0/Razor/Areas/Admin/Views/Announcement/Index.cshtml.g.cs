@@ -34,6 +34,13 @@ using EntityLayer.Concrete;
 #line hidden
 #nullable disable
 #nullable restore
+#line 5 "C:\Users\UlasCan\source\repos\TraversalCoreProje\TraversalCoreProje\Areas\Admin\Views\_ViewImports.cshtml"
+using TraversalCoreProje.CQRS.Results.DestinationResults;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 1 "C:\Users\UlasCan\source\repos\TraversalCoreProje\TraversalCoreProje\Areas\Admin\Views\Announcement\Index.cshtml"
 using DTOLayer.DTOs.AnnouncementDTOs;
 
@@ -41,7 +48,7 @@ using DTOLayer.DTOs.AnnouncementDTOs;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"fffa8619d38a32b6680271a92ab25f6c36f7cb4b", @"/Areas/Admin/Views/Announcement/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"657a3ef4aa79334e583ed0b2ceb7c7c0bf05b4c3", @"/Areas/Admin/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f8498e28da0f47f33f43caf4ed1e91cb1fea8198", @"/Areas/Admin/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Areas_Admin_Views_Announcement_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<AnnouncementListDto>>
     #nullable disable

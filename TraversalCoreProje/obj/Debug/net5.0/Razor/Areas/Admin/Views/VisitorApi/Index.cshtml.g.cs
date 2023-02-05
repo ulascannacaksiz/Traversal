@@ -41,6 +41,13 @@ using DTOLayer.DTOs.AnnouncementDTOs;
 #line hidden
 #nullable disable
 #nullable restore
+#line 5 "C:\Users\UlasCan\source\repos\TraversalCoreProje\TraversalCoreProje\Areas\Admin\Views\_ViewImports.cshtml"
+using TraversalCoreProje.CQRS.Results.DestinationResults;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 1 "C:\Users\UlasCan\source\repos\TraversalCoreProje\TraversalCoreProje\Areas\Admin\Views\VisitorApi\Index.cshtml"
 using TraversalCoreProje.Areas.Admin.Models;
 
@@ -48,7 +55,7 @@ using TraversalCoreProje.Areas.Admin.Models;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c979ca6e2be4e54d39a97461a992df3e2e891622", @"/Areas/Admin/Views/VisitorApi/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"657a3ef4aa79334e583ed0b2ceb7c7c0bf05b4c3", @"/Areas/Admin/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f8498e28da0f47f33f43caf4ed1e91cb1fea8198", @"/Areas/Admin/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Areas_Admin_Views_VisitorApi_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<VisitorViewModel>>
     #nullable disable

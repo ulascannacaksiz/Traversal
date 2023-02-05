@@ -36,3 +36,6 @@ System.NullReferenceException: Object reference not set to an instance of an obj
 2023-01-29T11:12:10.9077538+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
 2023-01-29T11:12:10.9145534+03:00  [INF] Hosting environment: "Development" (c3307c92)
 2023-01-29T11:12:10.9146142+03:00  [INF] Content root path: "C:\Users\UlasCan\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2023-01-29T11:51:17.3044944+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-01-29T11:51:17.3135242+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-01-29T11:51:17.3135890+03:00  [INF] Content root path: "C:\Users\UlasCan\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
