@@ -815,3 +815,4 @@ C:\Users\UlasCan\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\ne
 C:\Users\UlasCan\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Admin\Views\BookingHotelSearch\Index.cshtml.g.cs
 C:\Users\UlasCan\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Admin\Views\DestinationCQRS\Index.cshtml.g.cs
 C:\Users\UlasCan\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Admin\Views\DestinationCQRS\GetDestination.cshtml.g.cs
+C:\Users\UlasCan\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Admin\Views\DestinationCQRS\AddDestination.cshtml.g.cs
