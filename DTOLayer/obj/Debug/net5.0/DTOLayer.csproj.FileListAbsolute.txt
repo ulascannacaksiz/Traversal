@@ -22,3 +22,15 @@ C:\Users\UlasCan\source\repos\TraversalCoreProje\DTOLayer\obj\Debug\net5.0\DTOLa
 C:\Users\UlasCan\source\repos\TraversalCoreProje\DTOLayer\obj\Debug\net5.0\refint\DTOLayer.dll
 C:\Users\UlasCan\source\repos\TraversalCoreProje\DTOLayer\obj\Debug\net5.0\DTOLayer.pdb
 C:\Users\UlasCan\source\repos\TraversalCoreProje\DTOLayer\obj\Debug\net5.0\ref\DTOLayer.dll
+C:\Users\Ulas\Source\Repos\Traversal\DTOLayer\bin\Debug\net5.0\DTOLayer.deps.json
+C:\Users\Ulas\Source\Repos\Traversal\DTOLayer\bin\Debug\net5.0\DTOLayer.dll
+C:\Users\Ulas\Source\Repos\Traversal\DTOLayer\bin\Debug\net5.0\DTOLayer.pdb
+C:\Users\Ulas\Source\Repos\Traversal\DTOLayer\obj\Debug\net5.0\DTOLayer.csproj.AssemblyReference.cache
+C:\Users\Ulas\Source\Repos\Traversal\DTOLayer\obj\Debug\net5.0\DTOLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ulas\Source\Repos\Traversal\DTOLayer\obj\Debug\net5.0\DTOLayer.AssemblyInfoInputs.cache
+C:\Users\Ulas\Source\Repos\Traversal\DTOLayer\obj\Debug\net5.0\DTOLayer.AssemblyInfo.cs
+C:\Users\Ulas\Source\Repos\Traversal\DTOLayer\obj\Debug\net5.0\DTOLayer.csproj.CoreCompileInputs.cache
+C:\Users\Ulas\Source\Repos\Traversal\DTOLayer\obj\Debug\net5.0\DTOLayer.dll
+C:\Users\Ulas\Source\Repos\Traversal\DTOLayer\obj\Debug\net5.0\refint\DTOLayer.dll
+C:\Users\Ulas\Source\Repos\Traversal\DTOLayer\obj\Debug\net5.0\DTOLayer.pdb
+C:\Users\Ulas\Source\Repos\Traversal\DTOLayer\obj\Debug\net5.0\ref\DTOLayer.dll
