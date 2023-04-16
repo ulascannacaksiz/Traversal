@@ -1,8 +1,11 @@
 ﻿using BusinessLayer.Abstract;
+using BusinessLayer.Abstract.AbstractUow;
 using BusinessLayer.Concrete;
+using BusinessLayer.Concrete.ConcreteUow;
 using BusinessLayer.ValidationRules;
 using DataAccessLayer.Abstract;
 using DataAccessLayer.EntityFramework;
+using DataAccessLayer.UnitOfWork;
 using DTOLayer.DTOs.AnnouncementDTOs;
 using EntityLayer.Concrete;
 using FluentValidation;
@@ -46,6 +49,12 @@ namespace BusinessLayer.Container
             services.AddScoped<IPdfService, PdfManager>();
 
             services.AddScoped<IAlertService, AlertManager>();
+
+            services.AddScoped<IAccountService,AccountManager>();
+            services.AddScoped<IAccountDal,EfAccountDal>();
+            
+            services.AddScoped<IUowDal,UowDal>();
+            
         }
 
         public static void CustomValidator(this IServiceCollection services)
