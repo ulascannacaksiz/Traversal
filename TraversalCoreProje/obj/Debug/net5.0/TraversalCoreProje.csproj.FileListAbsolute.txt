@@ -1110,3 +1110,4 @@ C:\Users\Ulas\source\repos\Traversal\TraversalCoreProje\obj\Debug\net5.0\Razor\A
 C:\Users\Ulas\source\repos\Traversal\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Admin\Views\GuideMediatR\Index.cshtml.g.cs
 C:\Users\Ulas\source\repos\Traversal\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Admin\Views\GuideMediatR\AddGuide.cshtml.g.cs
 C:\Users\Ulas\source\repos\Traversal\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Admin\Views\Account\Index.cshtml.g.cs
+C:\Users\Ulas\source\repos\Traversal\TraversalCoreProje\obj\Debug\net5.0\Razor\Views\Shared\Components\_GuideDetails\Default.cshtml.g.cs

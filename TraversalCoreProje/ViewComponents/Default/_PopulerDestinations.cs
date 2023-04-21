@@ -1,6 +1,7 @@
 ﻿using BusinessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
 using Microsoft.AspNetCore.Mvc;
+using System.Linq;
 
 namespace TraversalCoreProje.ViewComponents.Default
 {
@@ -9,7 +10,7 @@ namespace TraversalCoreProje.ViewComponents.Default
         DestinationManager destinationManager = new DestinationManager(new EfDestinationDal());
         public IViewComponentResult Invoke()
         {
-            var values = destinationManager.TGetList();
+            var values = destinationManager.TGetList().Take(10).ToList();
             return View(values);
         }
     }
